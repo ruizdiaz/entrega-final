@@ -16,3 +16,56 @@
   padding: auto;
   margin: auto;
   text-align: center; }
+
+h1 {
+  font-family: impact sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #FAF; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  padding: auto;
+  top: 0; }
+
+section {
+  grid-area: section;
+  background-image: radial-gradient(#C9184A, #F9FBE7);
+  color: black;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: auto;
+  margin: auto;
+  text-align: center; }
+
+.galeria {
+  display: grid;
+  padding: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(14, 1fr);
+  grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8" "img9" "img10" "img11" "img12" "img13" "img14";
+  gap: 20px; }
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14 {
+  width: 300px;
+  height: 300px; }
+
+@media screen and (min-width: 720px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "img1 img2 " "img3 img4 " "img5 img6 " "img7 img8 " "img9 img10" "img11 img12" "img13 img14"; } }
+
+@media screen and (min-width: 1360px) {
+  .galeria {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "img1 img2 img3" "img4 img5 img6" "img7 img8 img9" "img10 img11 img12" "img13 img14"; } }
+
+footer {
+  background-color: #C9184A;
+  color: white;
+  text-align: center; }

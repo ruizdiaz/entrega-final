@@ -1,0 +1,50 @@
+$color-texto: black;
+$tamaño-fuente:2rem;
+
+h1{
+    font-family: impact sans-serif; 
+    color: $color-texto;
+    text-align: center;
+    font-size: $tamaño-fuente;
+    font-weight: bold;
+    background-color: #FAF;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding: auto;
+    top: 0;
+}
+
+section{
+    grid-area:section;
+    background-image: radial-gradient(#C9184A,#F9FBE7 );
+    color:$color-texto;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+.galeria{
+    display: grid;
+    padding:auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(14,1fr);
+    grid-template-areas:
+    "img1"
+    "img2"
+    "img3"
+    "img4"
+    "img5"
+    "img6"
+    "img7"
+    "img8"
+    "img9"
+    "img10"
+    "img11"
+    "img12"
+    "img13"
+    "img14";
+    gap: 20px;
+}
