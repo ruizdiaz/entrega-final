@@ -7,7 +7,12 @@ h1{
     text-align: center;
     font-size: $tamaño-fuente;
     font-weight: bold;
-    background-color: #FAF;
+    background-color:gainsboro;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -18,7 +23,7 @@ body{
 
 section{
     grid-area:section;
-    background-image: radial-gradient(#C9184A,#F9FBE7 );
+    background-color: #DCDCDC;
     color:$color-texto;
     text-transform: uppercase;
     padding: auto;
