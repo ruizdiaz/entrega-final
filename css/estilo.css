@@ -18,8 +18,8 @@
   text-align: center; }
 
 body {
-  margin-top: auto;
-  padding-top: auto; }
+  margin: 0;
+  padding: 0; }
 
 h1 {
   font-family: impact sans-serif;
@@ -27,7 +27,8 @@ h1 {
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
-  background-color: gainsboro; }
+  background-color: gainsboro;
+  text-transform: uppercase; }
 
 h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -60,10 +61,11 @@ section {
 .botonWhatsApp {
   width: 70px;
   position: fixed;
+  top: 50%;
   bottom: 10px;
   right: 10px; }
 
-.carousel-item {
+.carouselExampleCaptions {
   margin-top: auto;
   padding-top: auto; }
 
@@ -71,6 +73,43 @@ li {
   text-transform: uppercase;
   font-size: 20px;
   color: black; }
+
+.padreEstudios {
+  display: flex;
+  padding-top: auto;
+  margin-top: auto;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  grid-area: padreEstudios; }
+
+.hijoEstudios {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid gray;
+  box-shadow: 5px 5px 5px;
+  text-align: center;
+  grid-area: hijoEstudios; }
+
+.imgEstudios {
+  width: 200px;
+  height: 200px; }
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+  color: black; }
+
+h3 {
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase; }
+
+p {
+  color: black;
+  font-size: 2rem; }
 
 .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14 {
   width: 150px;
@@ -84,15 +123,32 @@ li {
   .galeria {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "img1 img2 " "img3 img4 " "img5 img6 " "img7 img8 " "img9 img10" "img11 img12" "img13 img14"; } }
+    grid-template-areas: "img1 img2 " "img3 img4 " "img5 img6 " "img7 img8 " "img9 img10" "img11 img12" "img13 img14"; }
+  .padreEstudios {
+    display: flex;
+    flex-flow: row wrap; } }
 
 @media screen and (min-width: 1360px) {
   .galeria {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "img1 img2 img3" "img4 img5 img6" "img7 img8 img9" "img10 img11 img12" "img13 img14"; } }
+    grid-template-areas: "img1 img2 img3" "img4 img5 img6" "img7 img8 img9" "img10 img11 img12" "img13 img14"; }
+    .galeria .footer {
+      font-size: 40px; }
+  .padreEstudios {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap; } }
 
 footer {
+  margin-top: auto;
+  padding: auto;
   background-color: #F44336;
   color: white;
+  text-align: center;
+  font-size: 20px; }
+
+.footer {
+  color: white;
+  font-size: 20px;
   text-align: center; }

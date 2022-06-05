@@ -12,6 +12,12 @@
          "img13 img14"
         ;
     }
+    .padreEstudios{
+      display: flex;
+      flex-flow: row wrap;
+
+    }
+
 }
 
 @media screen and (min-width:1360px){
@@ -25,5 +31,19 @@
          "img10 img11 img12"
          "img13 img14"
         ;
+        .footer{
+            
+            font-size:40px;
+            
+        }
+       
     }
+
+    .padreEstudios{
+        display: flex;
+        flex-flow: row wrap;
+        flex-wrap: wrap;
+    }
+
+
 }
