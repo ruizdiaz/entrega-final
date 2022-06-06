@@ -111,6 +111,14 @@ p {
   color: black;
   font-size: 2rem; }
 
+.nosotros {
+  text-align: center; }
+
+.card {
+  background-color: #dbdada;
+  padding: 20px;
+  margin: 20px; }
+
 .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14 {
   width: 150px;
   height: 150px;
