@@ -52,6 +52,7 @@ section {
   padding: auto;
   margin: auto; }
 
+/*css de pagina especialidades*/
 .galeria {
   display: grid;
   text-align: center;
@@ -61,6 +62,7 @@ section {
   grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8" "img9" "img10" "img11" "img12" "img13" "img14";
   gap: 20px; }
 
+/*logo de whatsapp*/
 .botonWhatsApp {
   width: 70px;
   position: fixed;
@@ -68,15 +70,18 @@ section {
   bottom: 10px;
   right: 10px; }
 
+/*boostrap esta en chequeos*/
 .carouselExampleCaptions {
   margin-top: auto;
   padding-top: auto; }
 
+/*chequeos*/
 li {
   text-transform: uppercase;
   font-size: 20px;
   color: black; }
 
+/*en pagina de estudios*/
 .padreEstudios {
   display: flex;
   padding-top: auto;
@@ -114,6 +119,7 @@ p {
   color: black;
   font-size: 2rem; }
 
+/*pag nosotros*/
 .nosotros {
   text-align: center; }
 
@@ -122,6 +128,7 @@ p {
   padding: 20px;
   margin: 20px; }
 
+/*contacto*/
 .form1 {
   text-align: center;
   background-color: #dbdada;
