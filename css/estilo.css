@@ -100,7 +100,7 @@ h2 {
   font-size: 20px;
   color: black; }
 
-h3 {
+h3 h4 {
   text-align: center;
   font-size: 3rem;
   color: black;
@@ -116,6 +116,25 @@ p {
 
 .card {
   background-color: #dbdada;
+  padding: 20px;
+  margin: 20px; }
+
+.form1 {
+  text-align: center;
+  background-color: #dbdada;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.logos {
+  width: 30px;
+  height: 30px; }
+
+.redes {
+  text-align: center;
+  background-color: white;
+  padding: 30px; }
+
+.card-group {
   padding: 20px;
   margin: 20px; }
 
