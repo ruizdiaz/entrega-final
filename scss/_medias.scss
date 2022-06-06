@@ -14,15 +14,16 @@
          "img11 img12"
          "img13 img14"
         ;
-        .chequeo{
-           display: none;
-        }
+      
     }
     .padreEstudios{
       display: flex;
       flex-flow: row wrap;
 
     }
+    .chequeo{
+        display: none;
+     }
 
 }
 
