@@ -139,10 +139,6 @@ p {
   width: 40px;
   height: 40px; }
 
-.logos1 {
-  width: 100px;
-  height: 100px; }
-
 .redes {
   text-align: center;
   background-color: white;
@@ -167,6 +163,8 @@ p {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "img1 img2 " "img3 img4 " "img5 img6 " "img7 img8 " "img9 img10" "img11 img12" "img13 img14"; }
+    .galeria .chequeo {
+      display: none; }
   .padreEstudios {
     display: flex;
     flex-flow: row wrap; } }
@@ -181,7 +179,9 @@ p {
   .padreEstudios {
     display: flex;
     flex-flow: row wrap;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  .chequeo {
+    display: none; } }
 
 /*pie de pagina*/
 footer {
