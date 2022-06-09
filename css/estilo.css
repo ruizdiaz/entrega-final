@@ -59,20 +59,7 @@ section {
   padding: auto;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(14, 1fr);
-  grid-template-areas: "img1"
- "img2"
- "img3"
- "img4"
- "img5"
- "img6"
- "img7"
- "img8"
- "img9"
- "img10"
- "img11"
- "img12"
- "img13"
- "img14";
+  grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8" "img9" "img10" "img11" "img12" "img13" "img14";
   gap: 20px; }
 
 /*logo de whatsapp*/
@@ -175,28 +162,18 @@ p {
   .galeria {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "img1 img2 "
- "img3 img4 "
- "img5 img6 "
- "img7 img8 "
- "img9 img10"
- "img11 img12"
- "img13 img14"; }
-    .galeria .chequeo {
-      display: none; }
+    grid-template-areas: "img1 img2 " "img3 img4 " "img5 img6 " "img7 img8 " "img9 img10" "img11 img12" "img13 img14"; }
   .padreEstudios {
     display: flex;
-    flex-flow: row wrap; } }
+    flex-flow: row wrap; }
+  .chequeo {
+    display: none; } }
 
 @media screen and (min-width: 1360px) {
   .galeria {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "img1 img2 img3"
- "img4 img5 img6"
- "img7 img8 img9"
- "img10 img11 img12"
- "img13 img14"; }
+    grid-template-areas: "img1 img2 img3" "img4 img5 img6" "img7 img8 img9" "img10 img11 img12" "img13 img14"; }
     .galeria .footer {
       font-size: 40px; }
   .padreEstudios {
@@ -211,11 +188,19 @@ footer {
   margin-top: auto;
   padding: auto;
   background-color: #F44336;
-  color: white;
+  color: black;
   text-align: center;
-  font-size: 20px; }
+  font-size: 1rem; }
 
 .footer {
   color: white;
-  font-size: 20px;
-  text-align: center; }
+  text-align: center;
+  font-size: 1rem; }
+
+.logoFooter {
+  width: 30px;
+  height: 30px; }
+
+h6 {
+  text-align: center;
+  text-transform: uppercase; }

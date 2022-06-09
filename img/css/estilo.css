@@ -1,198 +1,0 @@
-* {
-  margin: 0;
-  padding: 0; }
-
-.tamLogo {
-  width: 100px;
-  height: 100px; }
-
-.nav-link {
-  color: white; }
-
-.sanitosNav {
-  background-color: #696969;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  padding: auto;
-  margin: auto;
-  text-align: center; }
-
-body {
-  margin: 0;
-  padding: 0; }
-
-/*las contiene todas las paginas*/
-h1 {
-  font-family: impact sans-serif;
-  color: black;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
-  background-color: gainsboro;
-  text-transform: uppercase; }
-
-h2 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 20px;
-  font-weight: bold; }
-
-/*el cuerpo de todas las paginas*/
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: auto;
-  padding: auto;
-  top: 0; }
-
-/*inicio y contacto*/
-section {
-  grid-area: section;
-  background-color: #DCDCDC;
-  color: black;
-  text-transform: uppercase;
-  padding: auto;
-  margin: auto; }
-
-/*css de pagina especialidades*/
-.galeria {
-  display: grid;
-  text-align: center;
-  padding: auto;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(14, 1fr);
-  grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8" "img9" "img10" "img11" "img12" "img13" "img14";
-  gap: 20px; }
-
-/*logo de whatsapp*/
-.botonWhatsApp {
-  width: 70px;
-  position: fixed;
-  top: 50%;
-  bottom: 10px;
-  right: 10px; }
-
-/*boostrap esta en chequeos*/
-.carouselExampleCaptions {
-  margin-top: auto;
-  padding-top: auto; }
-
-/*chequeos*/
-li {
-  text-transform: uppercase;
-  font-size: 20px;
-  color: black; }
-
-/*en pagina de estudios*/
-.padreEstudios {
-  display: flex;
-  padding-top: auto;
-  margin-top: auto;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-  grid-area: padreEstudios; }
-
-.hijoEstudios {
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid gray;
-  box-shadow: 5px 5px 5px;
-  text-align: center;
-  grid-area: hijoEstudios; }
-
-.imgEstudios {
-  width: 200px;
-  height: 200px; }
-
-h2 {
-  text-align: center;
-  font-size: 20px;
-  color: black; }
-
-h3 h4 {
-  text-align: center;
-  font-size: 3rem;
-  color: black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-transform: uppercase; }
-
-p {
-  color: black;
-  font-size: 2rem; }
-
-/*pag nosotros*/
-.nosotros {
-  text-align: center; }
-
-.card {
-  background-color: #dbdada;
-  padding: 20px;
-  margin: 20px; }
-
-/*contacto*/
-.form1 {
-  text-align: center;
-  background-color: #dbdada;
-  text-transform: uppercase;
-  font-weight: bold; }
-
-.logos {
-  width: 40px;
-  height: 40px; }
-
-.redes {
-  text-align: center;
-  background-color: white;
-  padding: 30px; }
-
-.card-group {
-  padding: 20px;
-  margin: 20px; }
-
-/*extend de pagina especialidades*/
-.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14 {
-  width: 150px;
-  height: 150px;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  border-radius: 30%;
-  background-size: 100% auto; }
-
-/*medias para tablet y escritorio*/
-@media screen and (min-width: 720px) {
-  .galeria {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "img1 img2 " "img3 img4 " "img5 img6 " "img7 img8 " "img9 img10" "img11 img12" "img13 img14"; }
-  .padreEstudios {
-    display: flex;
-    flex-flow: row wrap; }
-  .chequeo {
-    display: none; } }
-
-@media screen and (min-width: 1360px) {
-  .galeria {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "img1 img2 img3" "img4 img5 img6" "img7 img8 img9" "img10 img11 img12" "img13 img14"; }
-    .galeria .footer {
-      font-size: 40px; }
-  .padreEstudios {
-    display: flex;
-    flex-flow: row wrap;
-    flex-wrap: wrap; }
-  .chequeo {
-    display: none; } }
-
-/*pie de pagina*/
-footer {
-  margin-top: auto;
-  padding: auto;
-  background-color: #F44336;
-  color: white;
-  text-align: center;
-  font-size: 20px; }
-
-.footer {
-  color: white;
-  font-size: 20px;
-  text-align: center; }
