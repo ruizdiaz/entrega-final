@@ -10,6 +10,20 @@ h1{
     background-color:gainsboro;
     text-transform: uppercase;
 }
+.especialidades {
+    font-size:1rem;
+    text-align: center;
+    height: 80px;
+    margin: 50px
+}
+.card-img  {
+    height: 290px;
+    
+    text-align: center;
+}   
+    
+   
+    
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -36,6 +50,7 @@ section{
 /*css de pagina especialidades*/
 .galeria{
     display: grid;
+    background-color: white;
     text-align: center;
     padding:auto;
     grid-template-columns: 1fr;
@@ -55,8 +70,15 @@ section{
     "img12"
     "img13"
     "img14";
-    gap: 20px;
+    gap: 100px;
 }
+.galeriaImg {
+    background-color: #F5F5F5;
+    border-radius: 10%;
+
+}
+
+
 /*logo de whatsapp*/
 .botonWhatsApp {
     width: 70px;

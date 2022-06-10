@@ -17,6 +17,9 @@
   margin: auto;
   text-align: center; }
 
+.navbar-toggler {
+  color: white; }
+
 body {
   margin: 0;
   padding: 0; }
@@ -30,6 +33,15 @@ h1 {
   font-weight: bold;
   background-color: gainsboro;
   text-transform: uppercase; }
+
+.especialidades {
+  font-size: 1rem;
+  text-align: center; }
+
+.card-img {
+  height: 200px;
+  width: 500px;
+  text-align: center; }
 
 h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -59,7 +71,20 @@ section {
   padding: auto;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(14, 1fr);
-  grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8" "img9" "img10" "img11" "img12" "img13" "img14";
+  grid-template-areas: "img1"
+ "img2"
+ "img3"
+ "img4"
+ "img5"
+ "img6"
+ "img7"
+ "img8"
+ "img9"
+ "img10"
+ "img11"
+ "img12"
+ "img13"
+ "img14";
   gap: 20px; }
 
 /*logo de whatsapp*/
@@ -162,10 +187,18 @@ p {
   .galeria {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "img1 img2 " "img3 img4 " "img5 img6 " "img7 img8 " "img9 img10" "img11 img12" "img13 img14"; }
+    grid-template-areas: "img1 img2 "
+ "img3 img4 "
+ "img5 img6 "
+ "img7 img8 "
+ "img9 img10"
+ "img11 img12"
+ "img13 img14"; }
   .padreEstudios {
     display: flex;
     flex-flow: row wrap; }
+  .especialidades {
+    font-size: 3rem; }
   .chequeo {
     display: none; } }
 
@@ -173,9 +206,13 @@ p {
   .galeria {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "img1 img2 img3" "img4 img5 img6" "img7 img8 img9" "img10 img11 img12" "img13 img14"; }
-    .galeria .footer {
-      font-size: 40px; }
+    grid-template-areas: "img1 img2 img3"
+ "img4 img5 img6"
+ "img7 img8 img9"
+ "img10 img11 img12"
+ "img13 img14"; }
+  .footer {
+    font-size: 40px; }
   .padreEstudios {
     display: flex;
     flex-flow: row wrap;

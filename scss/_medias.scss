@@ -19,7 +19,9 @@
     .padreEstudios{
       display: flex;
       flex-flow: row wrap;
-
+    }
+    .especialidades{
+        font-size: 3rem;
     }
     .chequeo{
         display: none;
@@ -38,13 +40,15 @@
          "img10 img11 img12"
          "img13 img14"
         ;
-        .footer{
-            
-            font-size:40px;
-            
-        }
+      
        
     }
+    .footer{
+            
+        font-size:40px;
+        
+    }
+
 
     .padreEstudios{
         display: flex;
