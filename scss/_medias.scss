@@ -20,7 +20,9 @@
         font-size: 1rem;
     }
 
-    
+    .imagenChequeo{
+        height: 1000px;
+    }
     .padreEstudios{
       display: flex;
       flex-flow: row wrap;
@@ -30,6 +32,7 @@
     }
     .chequeo{
         display: none;
+        
      }
 
 }
@@ -57,7 +60,7 @@
         
     }
     .imagenChequeo{
-        height: 900px;
+        height: 1200px;
     }
 
     .padreEstudios{
@@ -67,6 +70,7 @@
     }
 .chequeo{
     display: none;
+
 }
 
 }

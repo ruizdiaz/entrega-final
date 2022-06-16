@@ -208,6 +208,8 @@ main {
     grid-template-areas: "img1 img2 " "img3 img4 " "img5 img6 " "img7 img8 " "img9 img10" "img11 img12" "img13 img14"; }
   .li {
     font-size: 1rem; }
+  .imagenChequeo {
+    height: 1000px; }
   .padreEstudios {
     display: flex;
     flex-flow: row wrap; }
@@ -226,7 +228,7 @@ main {
   .footer {
     font-size: 40px; }
   .imagenChequeo {
-    height: 900px; }
+    height: 1200px; }
   .padreEstudios {
     display: flex;
     flex-flow: row wrap;
